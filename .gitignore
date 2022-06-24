@@ -1,1 +1,3 @@
 node_modules/
+primeiro-projeto-cypress/cypress/videos/
+primeiro-projeto-cypress/cypress.env.json

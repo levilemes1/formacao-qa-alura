@@ -14,6 +14,6 @@ describe('alura busca curso', () => {
         cy.get('#header-barraBusca-form-campoBusca').type('Formação Java e Orientação a Objetos');
         cy.get('.header-barraBusca-form-submit').click();
         cy.get(':nth-child(1) > .busca-resultado-link > .busca-resultado-container > .busca-resultado-nome').should('have.text', 'Formação Java e Orientação a Objetos');
-        });
+    });
 
 })
