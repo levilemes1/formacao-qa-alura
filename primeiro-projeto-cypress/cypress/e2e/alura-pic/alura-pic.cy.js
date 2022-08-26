@@ -45,7 +45,7 @@ describe('login e registro de usuário no alura pic', () => {
         })
     });
 
-    const usuarios = require('../../fixtures/usuarios.json');
+    const usuarios = require('../fixtures/usuarios.json');
     usuarios.forEach(usuario => {
         it('registrar novo usuário "' + usuario.username + '"', () => {
             cy.contains('a', 'Register now').click();
